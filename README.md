@@ -1,77 +1,65 @@
-Corporate Financial Planning & Profitability Analysis
-Project Overview
-An end-to-end financial analytics project designed to consolidate departmental financial data, analyse profitability, monitor budget performance, evaluate cost overruns, and support management decision-making through financial dashboards and scenario modelling.
+# Corporate Financial Planning & Profitability Analysis
 
-Business Objectives
-Consolidate financial data from multiple departmental sources.
+> A practice project focused on financial analysis, profitability, budget tracking, scenario modelling, and executive reporting using Microsoft Excel.
 
-Analyse revenue, costs, profitability, and margins at granular levels.
+---
 
-Evaluate actual performance against budgets.
+## Project Overview
 
-Identify expense overruns exceeding defined thresholds.
+This project simulates a corporate financial planning and profitability analysis workflow. It consolidates departmental data, evaluates financial performance, analyses profitability, tracks budget variances, and models different business scenarios to support management decision-making.
 
-Model Best, Base, and Worst-case business scenarios.
+## Project Objectives
 
-Assess the potential impact of raw-material price changes.
+- Consolidate departmental financial datasets.
+- Perform product-level and departmental profitability analysis.
+- Analyse actual vs. budget performance.
+- Identify expense overruns.
+- Develop financial scenarios.
+- Evaluate the impact of raw material price increases.
+- Build a CFO-focused financial dashboard.
 
-Develop a CFO-focused reporting dashboard.
+## Tools & Technologies
 
-Tools & Technologies
-Microsoft Excel
+- Microsoft Excel
+- Power Query
+- PivotTables & PivotCharts
+- Excel Financial Modelling
+- Scenario Manager
+- Data Tables
+- Goal Seek
+- VBA
+- LM Studio
+- Local LLM Integration
 
-Power Query (ETL and data transformation)
+## Project Workflow
 
-PivotTables & PivotCharts
+1. Data ingestion and consolidation
+2. Data cleaning and transformation using Power Query
+3. Data validation and reconciliation
+4. Financial and profitability analysis
+5. Budget variance analysis
+6. Expense overrun identification
+7. Scenario modelling
+8. Dashboard development
+9. AI-assisted executive memo generation
 
-Excel formulas and financial modelling
+## Project Structure
 
-Scenario Manager
+- **Documentation** – Project requirements and documentation
+- **Data** – Source datasets
+- **Excel** – Financial models and analysis workbooks
 
-Data Tables
+## Project Classification
 
-Goal Seek
+| Attribute | Details |
+|---|---|
+| Project Type | Practice Project |
+| Domain | Data Analytics / Financial Analysis |
+| Primary Tool | Microsoft Excel |
+| ETL | Power Query |
+| Automation | VBA |
+| AI Integration | LM Studio with local LLM |
 
-VBA
+## Disclaimer
 
-Power BI / data visualisation (include only if actually implemented in this project)
-
-Project Workflow
-Data ingestion and consolidation
-
-Data cleaning and transformation
-
-Data validation and reconciliation
-
-Financial modelling and profitability analysis
-
-Budget variance analysis
-
-Cost-overrun identification
-
-Scenario modelling
-
-Dashboard development
-
-Executive reporting
-
-Key Analytical Areas
-Revenue and cost analysis
-
-Gross profitability and margin analysis
-
-Budget vs actual performance
-
-Departmental and product-level profitability
-
-Expense variance analysis
-
-Scenario-based financial impact assessment
-
-Raw-material price sensitivity analysis
-
-Limitations & Assumptions
-Financial outputs and scenario results depend on source-data quality, modelling assumptions, and the availability of cost classifications. Assumption-based estimates are distinguished from verified financial results.
-
-Project Status
-Phase 1 – Financial analytics, modelling, validation and reporting.
+This is a practice project developed for educational and analytical purposes. The datasets and financial outputs are not intended to represent the actual financial performance of any real company.
