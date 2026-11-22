@@ -18,6 +18,10 @@ This project simulates a corporate financial planning and profitability analysis
 - Evaluate the impact of raw material price increases.
 - Build a CFO-focused financial dashboard.
 
+## Dashboard Preview
+
+![CFO_Dashboard](Excel/CFO_Dashboard.png)
+
 ## Tools & Technologies
 
 - Microsoft Excel
