@@ -20,42 +20,13 @@ This project simulates a corporate financial planning and profitability analysis
 
 ## Dashboard Preview
 
-![CFO_Dashboard](Excel/CFO_Dashboard.png)
+![CFO Dashboard](Excel/CFO_Dashboard.png)
 
-## Tools & Technologies
+---
 
-- Microsoft Excel
-- Power Query
-- PivotTables & PivotCharts
-- Excel Financial Modelling
-- Scenario Manager
-- Data Tables
-- Goal Seek
-- VBA
-- LM Studio
-- Local LLM Integration
+## Important: Power Query Connections
 
-## Project Workflow
-
-1. Data ingestion and consolidation
-2. Data cleaning and transformation using Power Query
-3. Data validation and reconciliation
-4. Financial and profitability analysis
-5. Budget variance analysis
-6. Expense overrun identification
-7. Scenario modelling
-8. Dashboard development
-9. AI-assisted executive memo generation
-
-## Project Structure
-
-- **Documentation** – Project requirements and documentation
-- **Data** – Source datasets
-- **Excel** – Financial models and analysis workbooks
-
-### Important: Power Query Connections
-
-The Excel workbook uses Power Query to import data from the source Excel files.
+The Excel workbook uses Power Query to import and transform data from the source Excel files.
 
 After downloading or cloning this repository, the Power Query source paths may need to be updated to match the location of the project folder on your local machine.
 
@@ -68,6 +39,26 @@ To restore data refresh functionality:
 
 The workbook's data transformations and analytical model are designed to work with the provided source files.
 
+---
+
+## AI Integration – LM Studio & Qwen
+
+This project includes VBA-based integration with a locally hosted Large Language Model using LM Studio.
+
+### Requirements
+
+- LM Studio installed locally.
+- The required Qwen model downloaded in LM Studio.
+- The Qwen model loaded and running in LM Studio.
+- The local AI server enabled and running.
+- Excel macros enabled for the VBA functionality.
+
+**The AI integration will not work unless the required Qwen model is loaded and running in LM Studio.**
+
+The AI integration is designed to assist with analytical interpretation and reporting using locally hosted AI capabilities.
+
+---
+
 ## Project Classification
 
 | Attribute | Details |
@@ -77,8 +68,23 @@ The workbook's data transformations and analytical model are designed to work wi
 | Primary Tool | Microsoft Excel |
 | ETL | Power Query |
 | Automation | VBA |
-| AI Integration | LM Studio with local LLM |
+| AI Integration | LM Studio with locally hosted Qwen LLM |
+
+---
+
+## Limitations
+
+- Power Query source paths may require updating on the reviewer's local machine.
+- Data refresh functionality requires the provided source files and correctly configured source paths.
+- VBA functionality requires macros to be enabled.
+- AI functionality requires LM Studio, with the required Qwen model loaded and running locally.
+- Financial scenarios are assumption-driven and should not be interpreted as actual forecasts.
+- Financial outputs are subject to the limitations and assumptions of the underlying datasets and analytical model.
+
+---
 
 ## Disclaimer
 
-This is a practice project developed for educational and analytical purposes. The datasets and financial outputs are not intended to represent the actual financial performance of any real company.
+This is a practice project developed for educational and analytical purposes.
+
+The datasets and financial outputs are fictional and are not intended to represent the actual financial performance of any real company. The analysis should not be interpreted as professional financial, investment, or business advice.
