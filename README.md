@@ -49,6 +49,21 @@ This project simulates a corporate financial planning and profitability analysis
 - **Data** – Source datasets
 - **Excel** – Financial models and analysis workbooks
 
+### Important: Power Query Connections
+
+The Excel workbook uses Power Query to import data from the source Excel files.
+
+After downloading or cloning this repository, the Power Query source paths may need to be updated to match the location of the project folder on your local machine.
+
+To restore data refresh functionality:
+
+1. Open `CFO_Master_Model.xlsx` in Excel.
+2. Go to **Data → Queries & Connections**.
+3. Edit the source paths of the relevant Power Query queries to point to the files in `Data/Source_Files/`.
+4. Refresh the queries.
+
+The workbook's data transformations and analytical model are designed to work with the provided source files.
+
 ## Project Classification
 
 | Attribute | Details |
